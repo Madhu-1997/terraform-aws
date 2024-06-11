@@ -1,5 +1,4 @@
 # Terraform commands:
 terraform init -- it will intialize the package of terraform.
 
-
-# Advantages of Terraform:
+1.This repository will do the terraform basic vpc and instace setup
