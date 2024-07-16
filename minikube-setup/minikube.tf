@@ -7,7 +7,7 @@ module "minikube" {
   # ~ --> home dir, you should have terraform.pub in your home
   ssh_public_key = "~/devops.pub" # replace with your public key name and path
   aws_subnet_id = "subnet-0bf7e0d4b0a3e1607" # any public subnet in any VPC, I am using default VPC subnet
-  #hosted_zone = "joindevops.online" # replace with your domain
+  hosted_zone = "joindevops.online" # replace with your domain
   hosted_zone_private = false
 
   tags = {
